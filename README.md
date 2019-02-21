@@ -2,7 +2,7 @@
 
 Quick little run through of how to set up a docker container to run locally to debug any Pipeline scripts you may be running.
 
-## Setup
+# Setup
 
 1) Clone repo
 
