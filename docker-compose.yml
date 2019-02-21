@@ -1,0 +1,9 @@
+version: "3"
+services:
+  selenium:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    image: DOCKER_IMAGE_BASE
+    volumes:
+      - ../RELATIVE_DIRECTORY_TO_COPY:/usr/lib/DIRECTORY_TO_COPY
