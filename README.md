@@ -11,6 +11,7 @@ Quick little run through of how to set up a docker container to run locally to d
 3) Open the [docker-compose.yml](docker-compose.yml) and make the following changes:
     -   Change `DOCKER_IMAGE_BASE` to whatever image you are using (from the `Dockerfile`)
     -   Change `../RELATIVE_DIRECTORY_TO_COPY` to the directory you wish to copy into the Docker container for debugging.
+    -   Change `/usr/lib/DIRECTORY_TO_COPY`, similar to the above.
 
 4) Build the docker container with `docker-compose build`
 
